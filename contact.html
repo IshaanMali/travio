@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body {
+          background-image: url('./background.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p></p>
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="travel_recommendation.html" class="nav-link px-2 text-white">Home</a></li>
+                <li><a href="about.html" class="nav-link px-2 text-white">About Us</a></li>
+                <li><a href="contact.html" class="nav-link px-2 text-white">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+        <h1 class="mb-4 fw-bold text-white">CONTACT US</h1>
+        <p class="text-white">Get in touch!</p>
+        <div class="contact-container col-12 col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-white">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-white">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-white">Message</label>
+                    <textarea id="message" rows="4" class="form-control" placeholder="Write your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
